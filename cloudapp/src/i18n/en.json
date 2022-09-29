@@ -1,0 +1,11 @@
+{
+    "Main": {
+        "Search": "Search",
+        "Update": "Update",
+        "Configuration": "Configuration"
+    },
+    "Configuration": {
+        "Domains": "Primary ID-Domains",
+        "LocalProfiles": "Local Profiles"
+    }
+}

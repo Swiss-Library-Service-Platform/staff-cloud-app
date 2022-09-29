@@ -1,0 +1,14 @@
+<mat-tab-group mat-stretch-tabs>
+    <mat-tab [label]="'Configuration.Domains' | translate">
+        Domains: <br>
+        {{ config.domains }} <br> <br>
+
+        <input [(ngModel)]="domainInput"/>
+        <button mat-flat-button (click)="addDomain()" color="secondary">
+          <mat-icon inline=true>add</mat-icon>
+        </button>
+    </mat-tab>
+    <mat-tab [label]="'Configuration.LocalProfiles' | translate">
+      Local Profiles:
+    </mat-tab>
+</mat-tab-group>
